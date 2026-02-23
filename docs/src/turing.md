@@ -1,6 +1,6 @@
 # Turing Example 
 
-This example demonstrates how to correctly compute PSIS LOO for a model developed with [Turing.jl](https://turinglang.org/stable/). Below, we show two ways to correctly specify the model in Turing. What is most important is to specify the model so that pointwise log densities are computed for each observation. 
+This example demonstrates how to correctly compute PSIS LOO for a model developed with [Turing.jl](https://turinglang.org/). Below, we show two ways to correctly specify the model in Turing. What is most important is to specify the model so that pointwise log densities are computed for each observation. 
 
 To make things simple, we will use a Gaussian model in each example. Suppose observations ``Y = \{y_1,y_2,\dots y_n\}`` come from a Gaussian distribution with an uknown parameter ``\mu`` and known parameter ``\sigma=1``. The model can be stated as follows:
 
