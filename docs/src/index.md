@@ -4,7 +4,7 @@ CurrentModule = ParetoSmooth
 
 # ParetoSmooth
 
-Documentation for [ParetoSmooth](https://github.com/TuringLang/ParetoSmooth.jl).
+Documentation for [ParetoSmooth](https://github.com/chalk-lab/ParetoSmooth.jl).
 
 ```@index
 ```
