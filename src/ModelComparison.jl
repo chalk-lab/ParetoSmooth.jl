@@ -152,9 +152,9 @@ function Base.show(io::IO, ::MIME"text/plain", model_comparison::ModelComparison
     return pretty_table(
         estimates.data;
         compact_printing=false,
-        header=estimates.statistic,
+        column_labels=estimates.statistic,
         row_labels=estimates.model,
-        formatters=ft_printf("%5.2f"),
+        formatters=[fmt__printf("%5.2f")],
         alignment=:r,
     )
 end
