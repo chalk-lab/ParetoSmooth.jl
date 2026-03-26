@@ -7,7 +7,7 @@ ParetoSmooth.jl is a Julia package for efficient approximate leave-one-out cross
 ## Working Effectively
 
 ### Environment Setup and Package Installation
-- Ensure Julia 1.6+ is available: `julia --version`
+- Ensure Julia 1.10+ is available: `julia --version`
 - Navigate to repository root: `cd /path/to/ParetoSmooth.jl`
 - Install and instantiate package dependencies:
   ```bash
