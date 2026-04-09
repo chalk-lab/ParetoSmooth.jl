@@ -55,9 +55,9 @@ function Base.show(io::IO, ::MIME"text/plain", loo_object::PsisLoo)
     return pretty_table(
         table.data;
         compact_printing=false,
-        header=table.column,
+        column_labels=table.column,
         row_labels=table.statistic,
-        formatters=ft_printf("%5.2f"),
+        formatters=[fmt__printf("%5.2f")],
         alignment=:r,
     )
 end

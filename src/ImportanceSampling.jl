@@ -76,8 +76,8 @@ function Base.show(io::IO, ::MIME"text/plain", psis_object::Psis)
     return pretty_table(
         table;
         compact_printing=false,
-        header=[:pareto_k, :ess, :sup_ess],
-        formatters=ft_printf("%5.2f"),
+        column_labels=[:pareto_k, :ess, :sup_ess],
+        formatters=[fmt__printf("%5.2f")],
         alignment=:r,
     )
 end
